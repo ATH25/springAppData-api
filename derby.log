@@ -1,8 +1,8 @@
 ----------------------------------------------------------------
-Wed Feb 15 21:47:29 EST 2017:
-Booting Derby version The Apache Software Foundation - Apache Derby - 10.12.1.1 - (1704137): instance a816c00e-015a-44d1-41c2-000006ea17f8 
-on database directory memory:C:\DEV\STS_Workspace\springAppData-api\testdb with class loader org.springframework.boot.loader.LaunchedURLClassLoader@33c7353a 
-Loaded from jar:file:/C:/DEV/STS_Workspace/springAppData-api/target/springAppData-api-0.0.1-SNAPSHOT.jar!/BOOT-INF/lib/derby-10.12.1.1.jar!/
+Sat Apr 15 14:19:57 EDT 2017:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.12.1.1 - (1704137): instance a816c00e-015b-72d7-cdcd-00000641c6f0 
+on database directory memory:C:\DEV\STS_Workspace\springAppData-api\testdb with class loader sun.misc.Launcher$AppClassLoader@4aa298b7 
+Loaded from file:/C:/Users/THOMAS/.m2/repository/org/apache/derby/derby/10.12.1.1/derby-10.12.1.1.jar
 java.vendor=Oracle Corporation
 java.runtime.version=1.8.0_121-b13
 user.dir=C:\DEV\STS_Workspace\springAppData-api

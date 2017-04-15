@@ -30,6 +30,7 @@ public class CourseController {
 	
 	@RequestMapping("/topics/{topicId}/courses/{id}")
 	public Course getCourse(@PathVariable String id){
+		//System.out.println("********** This is the id::: " + id); // This is printing out the {id) PathVariable not {topicId} PathVariable 
 		return courseService.getCourse(id);
 	}
 	

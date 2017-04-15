@@ -12,6 +12,7 @@ public class SpringAppDataApiApplicationTests {
 
 	@Test
 	public void contextLoads() {
+		System.out.println("######################### RUNNING TESTS #############################");
 	}
 
 }
