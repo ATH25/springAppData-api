@@ -1,6 +1,8 @@
 package com.thomas.springbootstarter.topic;
 
 import java.util.List;
+
+import org.aspectj.weaver.patterns.IfPointcut.IfFalsePointcut;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -30,7 +32,12 @@ public class TopicController {
 			System.out.println("@@@@@@@@@@@@@@@@@@@@@@@@@ topicSErvice is not null @@@@@@@@@@@@@@@@@@@@@@@@@");
 		}*/
 		List<Topic> topicList = topicSErvice.getAllTopics();
-		logger.debug("List of All Topics: " + topicList);
+		
+		if (logger.isDebugEnabled() ){
+			logger.debug("List of All Topics: ");
+			topicList.forEach(t -> System.out.println(t.getId() ) );
+		}
+		
 		return topicList;
 	}
 	
