@@ -24,7 +24,7 @@ public class TopicController {
 	private TopicService topicSErvice;
 	
 	@RequestMapping("/topics")
-	public List<Topic> getAllTopics(){
+	public List<Topic> getAllTopics(){  
 /*		if(topicSErvice == null ){
 			System.out.println("############# topicSErvice is null ###################");
 			System.out.println(topicSErvice);
