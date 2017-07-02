@@ -12,6 +12,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
+//import com.thomas.springbootstarter.test.SmokeTest;
+
 
 
 
@@ -31,11 +33,12 @@ public class TopicController {
 		}else{
 			System.out.println("@@@@@@@@@@@@@@@@@@@@@@@@@ topicSErvice is not null @@@@@@@@@@@@@@@@@@@@@@@@@");
 		}*/
+//		final static Logger logger = Logger.getLogger(TopicController.class.getName()); 
 		List<Topic> topicList = topicSErvice.getAllTopics();
 		
 		if (logger.isDebugEnabled() ){
-			logger.debug("List of All Topics: ");
-			topicList.forEach(t -> System.out.println(t.getId() ) );
+			logger.debug("List of All Topics:: ");
+			topicList.forEach(t -> logger.debug(t.getId() ) );
 		}
 		
 		return topicList;
